@@ -1,0 +1,25 @@
+html * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+.column{
+    width: 50%;
+    padding: 5px;
+    overflow: hidden;
+    background-color: bisque;
+}
+.t1 a{
+    color: #000;
+    padding-left: .5rem;
+    float: left;
+    text-decoration: none;
+}
+.t2 a{
+    float: right;
+    padding-left: .5rem;
+    color: black;
+}
+
