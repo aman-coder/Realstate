@@ -134,3 +134,123 @@ html * {
   }
   
 /* ending of cards */
+.r1 {  
+    display: flex;
+   padding: 10px;
+    flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      margin:auto;
+  }
+  .side {
+    flex:20%;
+    padding: 4px;
+    overflow-x: hidden;
+  }
+  .main1 {
+    flex:40%;
+    background-color: rgba(231, 195, 195, 0.632);
+    padding: 5px;
+    overflow-x: hidden;
+    border-radius: 50px;
+  }
+  .main1 form label{
+    position: relative;
+  }
+  @media screen and (max-width: 600px) {
+    .r1, .main1 {   
+      flex-direction: column;
+  
+      
+    }
+  }
+
+  
+  .container-search{
+  margin-top:100px;
+  height:30%;
+  padding:25px;
+  text-align:center;
+  background-color:rgba(128, 125, 125, 0.082);
+}
+/* .dropdown{
+    left:40%;
+} */
+.mainprop{
+    margin:10px;
+    padding:10px;
+  }
+  .property-section{
+      margin:10px;
+      height:50vh;
+  }
+  h1{
+    color:rgb(223, 83, 83);
+  }
+
+  .container{
+    width: 90%;
+    margin: 50px auto;
+  }
+  .heading{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom:50px ;
+  }
+  .r5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  }
+  .cards{
+    width: 20%;
+    background:  #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+  }
+  .cards-header{
+    text-align: center;
+    padding: 50px 10px;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: #fff;
+  }
+  .cards-body{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .cards-body .btn{
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    margin-top: 20px;
+    text-decoration:none ;
+    padding: 10px 5px;
+  }
+  .cards:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0,0,0, 0.25) ;
+  }
+  @media screen and  (max-width:1000px) {
+    .cards{
+      width: 40%;
+    }
+  }
+  @media screen and  (max-width:620px) {
+    .container{
+      width: 100%;
+    }
+    .heading{
+      padding: 20px;
+      font-size: 20px;
+    }
+    .cards{
+      width: 80%;
+    }
+  }
+
+
+  
