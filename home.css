@@ -252,5 +252,13 @@ html * {
     }
   }
 
+/* the about us page css */
+.com{
+  margin:50px;
+  width:70%;
+  text-align:center;
+  padding-left:25%;
+}
+
 
   
