@@ -185,13 +185,12 @@ html * {
     }
   }
 
-  
-  .container-search{
-  margin-top:100px;
-  height:30%;
-  padding:25px;
-  text-align:center;
-  background-color:rgba(128, 125, 125, 0.082);
+/* about us page */
+.com{
+    margin:50px;
+    width:70%;
+    text-align:center;
+    padding-left:25%;
 }
 /* .dropdown{
     left:40%;

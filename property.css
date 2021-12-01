@@ -1,0 +1,35 @@
+.container-search{
+  margin-top:100px;
+  height:30%;
+  padding:25px;
+  text-align:center;
+  background-color:rgba(128, 125, 125, 0.082);
+}
+/* .dropdown{
+    left:40%;
+} */
+section{
+    margin:10px;
+    padding:10px;
+  }
+  .property-section{
+      margin:10px;
+      height:50vh;
+  }
+  h1{
+    color:rgb(223, 83, 83);
+  }
+  .card{
+    /* margin:0px; */
+    height:100%;
+  }
+  .card img{
+    height:60%;
+    width:100%;
+  }
+  .card:hover {
+    -webkit-transform: perspective(250px) translateZ(10px);
+            transform: perspective(250px) translateZ(10px);
+    -webkit-box-shadow: 1px 3px 18px rgba(107, 228, 8, 0.548);
+            box-shadow: 1px 3px 18px rgba(107, 228, 8, 0.548);
+  }
