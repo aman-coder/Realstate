@@ -1,2 +1,2 @@
 # Realstate
-It is Template for Real-eState Website.
+It is a Template for Real-Estate Website.
